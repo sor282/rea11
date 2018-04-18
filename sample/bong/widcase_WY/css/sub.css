@@ -1,0 +1,44 @@
+/* CSS Document */
+
+
+/* sub common */
+#container{width:100%; overflow:hidden}
+
+#content{width:1000px; overflow:hidden; margin:0 auto;}
+#leftContent{width:170px;float:left;overflow:hidden;margin-right:35px}
+.leftNav h3{width:170px;height:40px;line-height:40px;;background:#ccc;font-size:1.6em;font-weight:900;text-align:center;margin-top:36px}
+.leftNav ul li{line-height:40px;padding-left:10px;border-bottom:#ccc 1px solid}
+.leftNav ul li.last{border-bottom:0}
+
+
+.banner{margin:30px auto}
+#contentArea{width:795px;  height:600px; overflow:hidden; float:left; padding:35px 0 100px; position:relative}
+#contentArea h2{font-size:1.8em;font-weight:900;padding-bottom:15px;border-bottom:#ccc 1px solid;margin-bottom:20px}
+.lineMap{position:absolute; top:20px; right:15px; color:#999}
+
+
+
+
+/* sub1 */
+
+
+
+
+/* sub2 */
+
+
+
+/* sub3 */
+
+
+
+
+/* sub4 */
+
+
+
+
+/* sub5 */
+
+
+

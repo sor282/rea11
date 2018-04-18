@@ -1,0 +1,11 @@
+/* CSS Document */
+#visual{background:url(../images/visual.jpg) no-repeat}
+.leftNav{width:228px}
+.leftNav h3{width:228px; height:127px; overflow:hidden; border-bottom:#ccc 1px solid; text-indent:-999px; background:url(../images/sub1_leftTitle.jpg)}
+.leftNav li a{display:block; width:228px; height:40px; overflow:hidden; border-bottom:#ccc 1px solid; text-indent:-999px}
+.leftNav .menu1 a{background:url(../images/sub1_menu01.jpg)}
+.leftNav .menu2 a{background:url(../images/sub1_menu02.jpg)}
+.leftNav .menu3 a{background:url(../images/sub1_menu03.jpg)}
+.leftNav .menu1 a:hover{background:url(../images/sub1_menu01_over.jpg)}
+.leftNav .menu2 a:hover{background:url(../images/sub1_menu02_over.jpg)}
+.leftNav .menu3 a:hover{background:url(../images/sub1_menu03_over.jpg)}

@@ -1,0 +1,13 @@
+/* CSS Document */
+.leftNav li a.current{background:url(../common/images/sub1_menu02_over.jpg)}
+#contentArea h2{width:424px; height:63px; text-indent:-9999px; background:url(../images/content2/contentHD.jpg); margin:30px 0 40px 0}
+.building{width:144px; height:37px; text-indent:-9999px; background:url(../images/content2/content1.jpg); margin-bottom:30px}
+#contentArea p{margin-bottom:30px}
+
+.Gallery{margin-bottom:30px}
+.changeGallery{width:655px; height:478px;overflow:hidden; position:relative}
+.visibleBox{width:655px; height:478px}
+.visibleBox .list1,.visibleBox .list2,.visibleBox .list3{display:none}
+.selectBox{width:500px; position:absolute; top:15px; left:17px}
+.selectBox span{display:block; width:60px; height:25px; margin-right:11px; cursor:pointer; overflow:hidden; float:left}
+

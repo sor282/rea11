@@ -1,0 +1,53 @@
+/* reset */
+html,body,div,span,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,blockquote,p,address,pre,cite,form,fieldset,input,textarea,select,table,tr,th,td,button{margin:0;padding:0}
+body,h1,h3,h2,h4,input,textarea,select,button,table{font-family:'돋움',Dotum,'굴림',Gulim,AppleGothic,sans-serif; font-size:12px; color:#6e6e6e; font-weight:normal}
+p,li,td,dt,dd{font-size:1em;text-align:justify;color:#6e6e6e}
+img,fieldset,iframe{border:0 none; vertical-align:top;}
+ol,ul{list-style:none}
+input,select,button{vertical-align:middle}
+em,address{font-style:normal}
+label,button{cursor:pointer}
+hr{display:none}
+fieldset,img,abbr,acronym{border:0 none} 
+table{border-collapse:collapse;border-spacing:0;border:0 none}
+blockquote:before,blockquote:after,q:before,q:after{content:""}
+blockquote,q{quotes:"" ""}
+th,td{padding:5px}
+a,a:hover,a:active,a:focus{color:#6e6e6e;text-decoration:none;outline:none}
+
+/* common */
+body{background:#0086cd}
+.wrap{width:100%; height:100%; overflow:hidden}
+.container{width:490px; height:560px; position:absolute; top:50%; left:50%; margin-top:-280px; margin-left:-245px;/*margin:15% auto;*/ background:url(bg_gradient.jpg) no-repeat center center; overflow:hidden}
+.contentWrap{width:360px; height:330px; margin:43px auto}
+#content{width:280px; margin:20px auto; text-align:center}
+#content img.error_text{margin-top:30px}
+#content img.success_text{margin-top:17px}
+#content p{display:block; font-size:1.4em; font-weight:900; color:#fff}
+#username{background:url(input_bg1.jpg) no-repeat right center; margin-top:36px}
+#password{background:url(input_bg2.jpg) no-repeat right center; margin-top:15px}
+input{width:202px; height:38px; padding:0 0 0 10px; font-size:1.1em; border-radius:8px; border:#dcdcdc 1px solid; box-shadow:inset 0px 2px 2px #c4c2c3}
+button{border:0; background-color: #0175d4; border-radius: 8px; color: #fff; font-size:1.4em; font-weight:700; box-shadow:inset 0px -10px 10px #025bae;}
+button.login_btn{width:212px; height:38px; font-size:1.5em; margin-top:23px}
+button.error_btn{width:166px; height:70px; line-height:1.5em; margin-top:55px}
+button.success_btn{width:125px; height:42px; margin-top:38px}
+button.success_btn2{width:125px; height:42px; font-size:1.3em;}
+button.btn2_right{margin-left:13px}
+button.btn2_bottom{margin-top:15px}
+.button_wrap{width:280px; margin-top:25px}
+
+@media screen and (max-height: 560px) {
+.container{width:490px; top:0; margin-top:0px;left:50%;margin-left:-245px}
+}	
+	
+@media screen and (max-width: 740px) {
+.container{width:100%; top:0; left:0; margin-top:0px; margin-left:0px;}
+}
+@media screen and (max-width:600px) {
+.container{width:100%; height:489px; top:0; left:0; margin-top:0px; margin-left:0px;background:url(bg_gradient2.jpg) no-repeat center center;}
+
+}
+@media screen and (max-width:360px) {
+.container{width:100%; height:489px; top:0; left:0; margin-top:0px; margin-left:0px;background:url(bg_gradient2.jpg) no-repeat center center;}
+.contentWrap{width:320px}
+}

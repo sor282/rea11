@@ -1,0 +1,44 @@
+<head>태그 사이에 넣는다..
+
+<script language="javascript" src="js/quick.js" type="text/javascript"></script>
+
+----------------------------------
+
+<div>가 들어갈 위치에 넣는다...
+
+
+
+
+<div id="gotop" style=" position:relative; float:left; top:10px; left:20px;  width:100px; height:300px;">
+    <a href="#top" title="상단으로"> 위로</a>
+   </div>
+<script type="text/javascript">initMoving(document.getElementById("gotop"), 10, 10, 150);</script>
+
+
+
+
+
+*initMoving(움직일 대상, 스크롤위치, 상단 한계, 하단 한계);
+
+*스크롤위치, 상단 한계 => 0으로 잡으면 안된다.   position:relative; top:10px;  => top과 수치를 맞춘다.
+
+움직일 대상은 HTML 오브젝트로 지정한다. 스크롤위치는 오브젝트가 스크롤을 따라서 고정될 브라우저 창 위 경계로부터의 위치이다. 상단 한계는 웹 페이지에서 오브젝트가 올라갈 수 있는 한계 위치이다. 하단 한계는 웹 페이지에서 오브젝트가 내려갈 수 있는 한계 위치이다. 
+스크롤위치(position)값이 양수이면 브라우저의 상단으로 부터의 거리, 음수이면 하단으로 부터의 거리로 계산이 된다. 상단 위치는 디자인 상의 이유로 오브젝트의 상단 한계를 정할 때 유용하다. 하단 한계는 브라우저 창이 작을 때 오브젝트가 한없이 내려가는 현상을 방지해 준다. 
+페이지에 이미지가 많아서 오브젝트가 페이지 끝까지 잘 내려가지 않을 경우 initMoving을 load 이벤트에서 적용하면 된다. 
+
+*브라우져의 크기를 바꾸면..내용이 화면의 중앙에 위치하는 경우일때/ 고정 레이아웃일때 사용한다.
+------------------------------------------------------
+브라우저의 top으로 이동하는 액션
+
+top1.buttonMode=true;
+var myURL:String;
+
+
+top1.addEventListener(MouseEvent.CLICK , link);
+
+function link(e:MouseEvent):void{
+	    myURL="#top";
+		navigateToURL(new URLRequest(myURL) , "_self");
+}
+ 
+

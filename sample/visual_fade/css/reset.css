@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/* 문서의 베이스 스타일시트 정의 */
+*{ margin:0; padding:0; }
+html, body { height:100%; font-family:'Nanum Gothic', Arial, Helvetica, Tahoma, sans-serif; font-size:12px; color:#666; }
+html { overflow-x:hidden; overflow-y:scroll;  }
+
+/* 기본태그의 스타일시트 정의 */
+div, p, span, strong, table, thead, tbody, tfoot, th, td, ul, ol, li, input, form, select, textarea, button, dl, dt, dd, a { margin:0; padding:0; }
+fieldset { border:none; margin:0px; padding:0px; }
+
+img { vertical-align:top; }
+
+/* 헤드태그의 스타일시트 정의 */
+h1, h2, h3, h4, h5, h6 { margin:0; padding:0; }
+
+/* 링크태그의 스타일시트 정의 */
+a { color:#404040; text-decoration:none; }
+a:hover { color:#404040; text-decoration:underline; background:none; }
+a:visited { color:#404040; background:none; }
+a:active { color:#404040; background:none; }
+
+
+ul { list-style:none; }
+ul li { list-style:none; }
+ol { list-style:none; }
+ol li { list-style:none; }
+
+/* 기타태그의 스타일시트 정의 */
+hr { height:1px; margin:30px 0; background:#ccc; border:none; }
+img { border:none; }

@@ -1,0 +1,20 @@
+/* CSS Document */
+.leftNav li a.current{background:url(../common/images/sub2_menu03_over.jpg)}
+#contentArea h2{width:403px; height:63px; text-indent:-9999px; background:url(../images/content3/contentHD.jpg); margin:30px 0 40px 0}
+#contentArea h3.con1{width:110px; height:28px; text-indent:-9999px; background:url(../images/content3/content1.jpg); margin-bottom:30px}
+#contentArea h3.con2{width:157px; height:34px; text-indent:-9999px; background:url(../images/content3/content2.jpg); margin-bottom:20px}
+#contentArea>p{margin:0 0 60px 10px}
+#contentArea>p.short{margin-bottom:30px}
+.fancyBox ul{margin-left:10px}
+.fancyBox li{float:left}
+.fancyBox li a{display:block;overflow:hidden;width:190px;height:180px;text-indent:-9999px; margin:0 30px 20px 0}
+.fancyBox li a.right{margin:0 0 20px 0}
+.fancyBox .f01 a{background:url(../images/content3/small01.jpg) 0 0 no-repeat}
+.fancyBox .f02 a{background:url(../images/content3/small02.jpg) 0 0 no-repeat}
+.fancyBox .f03 a{background:url(../images/content3/small03.jpg) 0 0 no-repeat}
+.fancyBox .f04 a{background:url(../images/content3/small04.jpg) 0 0 no-repeat}
+.fancyBox .f05 a{background:url(../images/content3/small05.jpg) 0 0 no-repeat}
+.fancyBox .f06 a{background:url(../images/content3/small06.jpg) 0 0 no-repeat}
+.fancyBox .f07 a{background:url(../images/content3/small07.jpg) 0 0 no-repeat}
+.fancyBox .f08 a{background:url(../images/content3/small08.jpg) 0 0 no-repeat}
+.fancyBox .f09 a{background:url(../images/content3/small09.jpg) 0 0 no-repeat}

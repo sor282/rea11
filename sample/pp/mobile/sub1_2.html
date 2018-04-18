@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title>대림미술관</title>
+<link rel="apple-touch-icon" href="app_icon.png" />
+<link rel="apple-touch-startup-image" href="startup.png"/>
+<link href="css/common.css" rel="stylesheet" type="text/css">
+<link href="css/sub_layout.css" rel="stylesheet" type="text/css">
+<link href="css/sub1_content2.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../common/js/jquery-1.8.3.min.js" language="javascript"></script>
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+</script>
+<script type="text/javascript"> 
+$(document).ready(function() {
+ $("#btn1").toggle(function() {
+  $("#content").css("display","block");  /*slidedown*/
+ }, function() {
+  $("#content").css("display","none");
+ });
+});
+</script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?v=3.3&sensor=true"></script>
+<script type="text/javascript"> 
+ function initialize() {
+  var myLatlng = new google.maps.LatLng(37.579004,126.973529);
+  var myOptions = {
+   zoom: 15,
+   center: myLatlng,
+   mapTypeId: google.maps.MapTypeId.TERRAIN
+  }
+  var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+ 
+  var marker = new google.maps.Marker({
+   position: myLatlng, 
+   map: map, 
+   title:"대림미술관"
+  });   
+  var infowindow = new google.maps.InfoWindow({
+   content: ""
+  });
+ 
+  infowindow.open(map,marker);
+ }
+ window.onload=function(){
+  initialize();
+ }
+</script> 
+
+</head>
+
+<body>
+
+<!--header s  -->
+<header>
+<div id="wrap_head">
+  <h1 class="main_logo bold helv"><a href="index.html" id="logo">DAELIM MUSEUM</a></h1>
+  <a href="#" id="btn1"><span class="search_icon">검색</span></a>
+  <div id="content">
+    <form id="search" action="#" method="get">
+      <fieldset>
+        <legend>사이트 검색 입력</legend>
+        <div class="bg_search">
+          <div class="wrapBox">
+            <input type="text" name="input_search" class="type_text" title="검색어 입력" maxlength="255"  />
+          </div>
+          <input type="submit" id="Btn" class="type_btn" title="검색" />
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+<nav>
+  <ul class="main_menu bold verd">
+    <li><a href="sub1_1.html" title="ABOUT" class="tab_m">ABOUT</a></li>
+    <li><a href="sub2_1.html" title="GUIDE" class="tab_m">GUIDE</a></li>
+    <li><a href="sub3_1.html" title="EXHIBITION" class="tab_m">EXHIBITION</a></li>
+    <li><a href="sub4_1.html" title="notice">NOTICE</a></li>
+  </ul>
+    <!-- 2depth --> 
+  <ul class="sub_menu verd">
+    <li><a href="sub1_1.html" >미술관소개</a></li>
+    <li><a href="sub1_2.html" class="current">오시는길</a></li>
+  </ul>
+</nav>
+</header>
+<!-- header e  -->
+<!-- article s -->
+<article>
+<div id="main">
+
+<h2>LOCATION</h2>
+   <div class="m_cont" style="width:96%;height:300px;margin:0 2%">
+       <div id="map_canvas" style="width:100%;height:300px"></div>
+   </div> 
+   <table width="100%" border="0" cellspacing="0" cellpadding="0" summary="주소와 연락처">
+   <caption class="hidden">주소 전화번호 메일</caption>
+    <tr>
+     <th scope="row">Address</th>
+     <td>서울시 종로구 통의동 35-1</td>
+    </tr>
+    <tr>
+     <th scope="row">Tel</th>
+     <td>
+	  <span class="tab_text">070-720-0667</span>
+	  <input type="button" class="btn_tel" value="통화하기" onClick="location.href='tel:0707200667'"; />
+	 </td>
+    </tr>
+    <tr>
+     <th scope="row">E-mail</th>
+     <td>
+	  <span class="tab_text">Info@daelimmuseum.org</span>
+	  <input type="button" class="btn_email" value="메일전송" onClick="location.href='mailto:Info@daelimmuseum.org'"; />
+	 </td>
+    </tr>
+   </table>
+
+</div>
+</article>
+<!-- article e -->
+<!-- footer s  -->
+<footer>
+<div id="footer">
+  <ul>
+   <li><a href="#">MY HOME</a></li>
+   <li><a href="#">ICON VIEW</a></li>
+   <li class="end"><a href="#">TOTAL VIEW</a></li>
+  </ul>
+  <input type="button" value="로그인">
+  <input type="button" value="PC버전">
+  <input type="button" value="고객센터">
+  <p class="privacy">
+   <a href="#">개인정보취급방침</a>
+   <span class="bar">|</span>
+   <a href="#">이용약관</a>
+  </p>
+</div>
+<div class="end_bar">
+ <p class="copyrights helv">COPYRIGHT&copy; 2012 HTML5. ALL RIGHTS RESERVED.</p>
+ <a href="javascript:window.scrollTo(0,0);"><img src="images/btn_bot_top.png"></a>
+</div>
+</footer>
+<!-- footer e  -->
+
+</body>
+</html>

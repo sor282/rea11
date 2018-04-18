@@ -1,0 +1,11 @@
+/* CSS Document */
+#container{width:998px; margin:0 auto; overflow:hidden; border-right:#CCC 1px solid; border-left:#CCC 1px solid}
+#visual{width:998px; height:170px}
+#content{width:998px; overflow:hidden}
+#leftContent{width:228px; overflow:hidden; float:left}
+.banner a{display:block; width:223px; height:144px; overflow:hidden; text-indent:-999px; background:url(../subImages/banner.jpg); margin:30px auto}
+.banner a:hover{background:url(../subImages/banner_hover.jpg)}
+#contentArea{width:655px; overflow:hidden; float:left; border-right:#CCC 1px solid; border-left:#CCC 1px solid; padding:35px 35px 100px 35px; position:relative}
+.lineMap{position:absolute; top:20px; right:35px; color:#999}
+#gotop{float:left; width:43px; overflow:hidden}
+#gotop a{display:block; position:relative; float:left; left:9px; width:27px; height:31px}

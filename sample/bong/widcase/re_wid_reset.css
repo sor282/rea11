@@ -1,0 +1,26 @@
+
+@charset "utf-8";
+
+/***** Reset *****/
+*, form {padding:0; margin:0;}
+body {font-family:'돋움',dotum,sans-serif;margin:0px; padding:0px;letter-spacing:-1px;}
+p, table, th, tr, td, a, a img, input, p {margin:0; padding:0;}
+h1, h2, h3, h4, h5 {margin:0; padding:0;}
+img {vertical-align:middle;border:0; margin:0; padding:0;}/*이미지링크선 표시 없음*/
+caption {visibility:hidden; height:0px; font-size:0em; line-height:0px; width:0em; overflow:hidden; text-align:left;}
+fieldset{margin:0; padding:0; border:none;}
+legend {visibility:hidden; height:0px; font-size:0em; line-height:0em; width:0px; overflow:hidden;}
+hr {display:none;}
+address {letter-spacing:0; font-style:normal; clear:both;}
+/*table {border-collapse:collapse;}*/
+textarea {-webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; border:1px solid #cfcfcf; padding:7px; color:#444; background-color:#fff;}
+ul, li, li, dl, dt, dd, ol {list-style:none; margin:0; padding:0;}
+a {text-decoration:none;}
+
+input[type="button"],input[type="image"]{border:0 none;cursor:pointer;}
+input[type="radio"],input[type="checkbox"]{vertical-align: middle;margin: -1px 4px 1px 0;}
+.right_txt{text-align:right!important;}
+.left_txt{text-align:left!important;}
+.font_bold{font-weight:bold;}
+
+.hidden {display:none;}

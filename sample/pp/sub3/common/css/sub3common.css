@@ -1,0 +1,33 @@
+/*
+Plugin: jQuery Parallax
+Version 1.1.3
+Author: Ian Lunn
+Twitter: @IanLunn
+Author URL: http://www.ianlunn.co.uk/
+Plugin URL: http://www.ianlunn.co.uk/plugins/jquery-parallax/
+License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike). Please attribute work to Ian Lunn simply by leaving these comments in the source code or if you'd prefer, place a link on your website to http://www.ianlunn.co.uk/.
+*/
+
+@charset "utf-8";
+/* CSS Document */
+
+.story h2{font-size:1.3em;font-weight:bold;margin-bottom:13px}
+.story h3{font-size:1.1em;font-weight:bold;margin-bottom:8px; margin-top:15px}
+.story p{margin-bottom:5px}
+
+.story{margin:0 auto;width:1000px;min-width:1000px;overflow:auto}
+.story .float-left,.story .float-right{padding:100px 0 0 0;position:relative}
+#intro .float-left{width:400px; float:left; margin-left:325px}
+#second .float-right{width:350px; float:right;margin:0}
+#third .float-left{width:300px; float:left; margin:0}
+
+#navRight{	list-style: none;position: fixed;right: 20px}
+#navRight li{margin: 0 0 15px 0}
+
+#intro{background:url(../../images/firstBG.jpg) 50% 0 no-repeat fixed;height:850px;margin:0 auto;padding: 0}
+#second{background: url(../../images/secondBG.jpg) 50% 0 no-repeat fixed;height:960px;margin:0 auto;overflow:hidden;padding:0}
+#second .bg{background:url(../../images/trainers.png) 50% 0 no-repeat fixed;height:960px;margin:0 auto;padding:0;position:absolute;width:900px;z-index:200;}
+#third{background:url(../../images/thirdBG.jpg) 50% 0 no-repeat fixed;height:960px;padding:0; color:#fff}
+#third p{color:#fff}
+#third .bg{background:url(../../images/trainers_.png) 50% 0 no-repeat fixed;height:1300px;margin:0 auto;padding:0;position:absolute;width:800px;z-index:200;}
+

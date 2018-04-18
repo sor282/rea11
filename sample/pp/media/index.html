@@ -1,0 +1,130 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>HOBBIT</title>
+<link href="css/base.css" rel="stylesheet" type="text/css">
+<link href="css/responsiveslides.css" rel="stylesheet" type="text/css">
+<script src="../common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="js/responsiveslides.min.js"></script>
+<script>
+	// <![CDATA[
+		try {
+		window.addEventListener('load', function(){
+	    	    setTimeout(scrollTo, 0, 0, 1); 
+	    	}, false);
+		} catch(e) {}
+	// ]]>
+</script>
+<!--[if lt IE 9]> 
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> 
+<![endif]-->
+<!--[if lt IE 9]>
+  <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<script>
+  // You can also use "$(window).load(function() {"
+  $(function () {
+	$("#slider3").responsiveSlides({
+	  manualControls: '#slider3-pager',
+	  maxwidth: 720
+	});
+  });
+</script>
+</head>
+
+<body>
+  
+<header>
+  <div id="header">
+    <a href="#"><img src="images/logo.png" alt=""></a>
+  </div>
+</header>
+<!-- header e -->
+
+<div class="wrap">
+<div class="container">
+  <div class="leftContent">
+    <div id="nav">
+      <ul>
+        <li><a href="#"><img src="images/nav01.png" alt="story"></a></li>
+        <li><a href="#"><img src="images/nav02.png" alt="cast&amp;crew"></a></li>
+        <li><a href="#"><img src="images/nav03.png" alt="character"></a></li>
+        <li><a href="#"><img src="images/nav04.png" alt="gallery"></a></li>
+        <li><a href="#"><img src="images/nav05.png" alt="videos"></a></li>
+        <li><a href="#"><img src="images/nav06.png" alt="event"></a></li>
+        <li><a href="#"><img src="images/nav07.png" alt="shop"></a></li>
+        <li><a href="#"><img src="images/nav08.png" alt="downloads"></a></li>
+        <li><a href="#"><img src="images/nav09.png" alt="soundtrack"></a></li>
+      </ul> 
+    </div>
+    <div class="link">
+      <ul>
+        <li><a href="#"><img src="images/link01.png" alt="youtube"></a></li>
+        <li><a href="#"><img src="images/link02.png" alt="twitter"></a></li>
+        <li><a href="#"><img src="images/link03.png" alt="facebook"></a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="main">
+  <div class="mainInner">
+    <div class="gallery">
+      <ul class="rslides" id="slider3">
+        <li><img src="images/1.jpg" alt=""></li>
+        <li><img src="images/2.jpg" alt=""></li>
+        <li><img src="images/3.jpg" alt=""></li>
+        <li><img src="images/4.jpg" alt=""></li>
+        <li><img src="images/5.jpg" alt=""></li>
+      </ul>
+      <ul id="slider3-pager">
+        <li><a href="#"><img src="images/1_thumb.jpg" alt=""></a></li>
+        <li><a href="#"><img src="images/2_thumb.jpg" alt=""></a></li>
+        <li><a href="#"><img src="images/3_thumb.jpg" alt=""></a></li>
+        <li><a href="#"><img src="images/4_thumb.jpg" alt=""></a></li>
+        <li><a href="#"><img src="images/5_thumb.jpg" alt=""></a></li>
+      </ul>      
+    </div>
+    <div class="story">
+      <h2>ABOUT THE FILM</h2>
+      <h3>마침내 역사상 가장 치열한 최강의 전쟁이 시작된다!</h3>
+      <p>사나운 용 스마우그가 빼앗아간 동쪽의 '외로운 산' 에레보르 왕국을 되찾기 위해 뜻하지 않은 여정을 떠나게 된 호빗 '빌보 배긴스'와 '간달프', 난쟁이족 왕족의 후예 '소린'이 이끄는 13명의 난쟁이족. '레골라스'와 그의 파트너 '타우리엘'이 속해있는 엘프족의 합세로 더욱 강해진 원정대는 외로운 산으로 가는 길에 어둠의 숲에서 모습을 자유자재로 바꾸는 베오른과 거대한 거미떼를 만나고<span>, 난쟁이들에게 적대적인 엘프족에게 잡혔다가 도망쳐 호수마을을 지나는 등 다양한 모험을 하게 된다. 그리고 마침내 에레보르의 외로운 산에 거의 다다랐을 때, 그들이 지금껏 만났던 그 어떤 존재보다도 위험하고 모두의 용기와 우정, 지혜의 한계를 시험에 들게 한 용 스마우그와 맞닥뜨리게 되는데</span>…</p>
+    </div>
+    <div class="quick">
+      <ul>
+        <li><a href="#"><img src="images/quick1.jpg" alt="shop"></a></li>
+        <li><a href="#"><img src="images/quick2.jpg" alt="download"></a></li>
+        <li class="right"><a href="#"><img src="images/quick3.jpg" alt="soundtrack"></a></li>
+      </ul>
+    </div>
+    <div class="video">
+      <video controls width="100%">
+        <source src="movie/teaser.ogv" type="video/ogg" />
+        <source src="movie/teaser.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </div>
+  </div>
+  <div id="contents">
+    <ul>
+      <li><a href="#"><img src="images/con01.jpg" alt=""></a></li>
+      <li><a href="#"><img src="images/con02.jpg" alt=""></a></li>
+    </ul>
+    <ul>
+      <li><a href="#"><img src="images/con03.jpg" alt=""></a></li>
+      <li><a href="#"><img src="images/con04.jpg" alt=""></a></li>
+    </ul>
+  </div>
+</div>
+</div>
+<!-- container e -->
+  
+<footer>
+  <div id="footer">
+    <a href="#"><img src="images/credits.png" alt="credits"></a>
+    </div>
+  </div>
+</footer>
+<!-- footer e -->
+</body>
+</html>

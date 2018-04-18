@@ -1,0 +1,20 @@
+#main table{border-collapse:collapse}
+#main .notice{overflow:hidden;position:relative;width:100%;color:#666}
+#main table{width:100%;border-top:1px solid #999;font-size:11px;line-height:2em;color:#666}
+#main table thead tr{border-bottom:1px solid #999;background:#dedede;color:#333; height:18px; font-size:12px}
+#main table th,table tr,table td{text-align:center;vertical-align:inherit}
+#main table tr{border-bottom:1px solid #ccc;display:table-row}
+#main table th,table td{display:table-cell; padding:5px 2px}
+#main table td{height:18px; overflow:hidden}
+#main table .td_left{padding-left:5px;text-align:left}
+
+#main table tr.no_line{border-bottom:0}
+#main table td.form_tr{height:30px}
+#main table .btn1,.btn2,.search,.text,.btn3{display:block; float:left; overflow:hidden}
+#main table .btn1{width:60px; height:19px; background:url(../images/btn_viewlist.jpg); text-indent:-9999px;margin-right:10px}
+#main table .btn2{width:60px; height:19px; background:url(../images/btn_write.jpg); text-indent:-9999px}
+#main table .search{width:65px; height:18px;margin:0; border:1px solid #999}
+#main table .text{width:100px; height:17px;margin-right:7px}
+#main table .btn3{width:52px; height:18px; background:url(../images/btn_serch.jpg); text-indent:-9999px}
+#main table .searchwrap{width:230px; overflow:hidden; float:right}
+

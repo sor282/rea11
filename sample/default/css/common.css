@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import "reset.css";
+@import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css");
+@import url("http://fonts.googleapis.com/earlyaccess/notosanskr.css");
+
+/* skipNav */
+#skipNav{position:relative;width:100%;overflow:hidden;}
+#skipNav a{display:block; height:1px; margin-bottom:-1px; overflow:hidden; text-align:center; text-decoration:none; color:#333; font-size:11px;}
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{display:block;height:auto;padding:5px 0; background:none repeat scroll 0 0 #f2f2f2;}
+
+/* header */
+#header{width:100%; height:110px; background:#CCF; overflow:hidden}
+.headerInner{width:1000px; height:90px; margin:10px auto; overflow:hidden; background:#FFF}
+.logo{width:176px; margin:20px 0 0 0; text-indent:-9999px; float:left}
+.logo a{display:block; width:176px; height:67px; background:url(../images/logo.jpg) no-repeat}	
+  
+/* 탑메뉴 */
+.headerRight{width:775px; float:right}
+.topMenu{float:right}
+.topMenu ul li{float:left; padding:0 10px; border-right:#999 1px solid; overflow:hidden; font-size:0.8em; height:10px}
+.topMenu ul .last{border:none}
+
+/* GNB */
+.dropdownmenu{width:630px; height:50px;float:right;margin-top:30px}
+.dropdownmenu li.menu{float:left;position:relative; margin-right:50px}
+.dropdownmenu li h3{position:relative; overflow:hidden;}
+.dropdownmenu li a.depth1{height:30px;display:block;font-size:1.2em;font-weight:700}
+  .dropdownmenu li ul{position:absolute;top:19px; left:0; padding:8px 0 5px 0; width:400px; display:none}
+  .dropdownmenu li.m6 ul{left:-30px}
+  .dropdownmenu li ul li{float:left; padding-right:15px;}
+  .dropdownmenu li.menu ul li a{ display:inline; color:#999;}
+  .dropdownmenu li.menu ul li a:hover{color:#009acc;}	
+
+/* footer */
+#footer{width:100%; background:#CCC; overflow:hidden}
+.footerInner{width:1000px; height:103px; margin:15px auto; overflow:hidden; background:#fff}
+

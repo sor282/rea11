@@ -1,0 +1,10 @@
+#main img{width:100%; margin-bottom:10px}
+table{width:100%; margin-bottom:15px; line-height:1.7em; border-collapse:collapse}
+table tr.title{background:#CCC}
+table tr{border:1px solid #CCC}
+table th.left{text-align:left; font-size:1em; letter-spacing:-2px}
+table th,td{border:1px solid #CCC; text-align:center}
+
+table th.col1{width:40%}
+table th.col2{width:30%}
+table th.col3{width:30%}

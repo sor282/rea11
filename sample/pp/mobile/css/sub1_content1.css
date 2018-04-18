@@ -1,0 +1,15 @@
+/* 2depth menu 추가 */
+.sub_menu{border-bottom:1px solid #dddddd; height:30px; overflow:hidden}
+.sub_menu li{float:left; height:30px}
+.sub_menu li a{display:block; border:none; height:22px; color:#666; padding-top:8px; font-size:11px; width:70px; text-align:center}
+.sub_menu li a.on{color:#00a9a0; font-weight:bold; letter-spacing:-0.5px}
+.sub_menu li .current{background:#eae9e9}
+
+/* sub4의 내용 콘텐츠 */
+#main img{width:100%; margin-bottom:10px}
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+/* CSS Document */
+.leftNav li a.current{background:url(../common/images/sub1_menu01_over.jpg)}
+#contentArea h2{width:424px; height:63px; text-indent:-9999px; overflow:hidden; background:url(../images/content1/contentHD.jpg); margin:30px 0 40px 0}
+
+/* tab */
+.tabs {position:relative; width:655px; padding-top:25px} 
+.tabs a.tab {display:block; float:left; width:100px; height:26px; text-indent:-999px; overflow:hidden; position:absolute} 
+.tabs a.tab1{background:url(../images/content1/tab1.jpg);left:10px; top:0}
+.tabs a.tab2{background:url(../images/content1/tab2.jpg);left:110px; top:0}
+.tabs .contlist {display:none; line-height:1.5em; border-top:1px solid #999; padding:40px 10px} 
+
+/* tab1 */
+.contlist1 .con1{width:381px; height:28px; text-indent:-9999px; background:url(../images/content1/content1.jpg);margin-bottom:20px}
+.contlist1 .con2{margin-bottom:45px}
+.comment1 h5{text-indent:-9999px; margin-bottom:10px}
+.comment1 p{margin-bottom:25px}
+.comment1 .box{width:590px; height:120px; padding-left:65px}
+.comment1 .text1{background:url(../images/content1/img0.jpg) 0 0 no-repeat}
+.comment1 .text2{background:url(../images/content1/img1.jpg) 0 0 no-repeat}
+.comment1 .text3{background:url(../images/content1/img2.jpg) 0 0 no-repeat}
+.comment1 .text1 h5{width:131px; height:23px; background:url(../images/content1/content2.jpg)}
+.comment1 .text2 h5{width:101px; height:23px; background:url(../images/content1/content3.jpg)}
+.comment1 .text3 h5{width:131px; height:22px; background:url(../images/content1/content4.jpg)}
+
+
+.comment2 .com2{width:635px; overflow:hidden; margin-top:45px}
+.comment2 .box{width:300px; height:275px; float:left; overflow:hidden; position:relative}
+.comment2 .left{margin-right:35px}
+.comment2 .box h5{width:300px; height:29px; text-indent:-9999px}
+.comment2 h5.title4{background:url(../images/content1/content5.jpg)}
+.comment2 h5.title5{background:url(../images/content1/content6.jpg)}
+.comment2 h5.title6{background:url(../images/content1/content7.jpg)}
+.comment2 h5.title7{background:url(../images/content1/content8.jpg)}
+.comment2 .box p{margin-top:7px}
+.comment2 .box img{width:300px; height:200px; position:absolute; bottom:0}
+
+/* tab2 */
+.contlist2 .con1{width:506px; height:56px; text-indent:-9999px; background:url(../images/content1/tab2_con1.jpg); overflow:hidden;margin-bottom:30px}
+.contlist2 img{width:655px; height:327px; margin-bottom:30px}
+.contlist2 .con2{margin-bottom:70px}
+
+.contlist2 .history{width:62px; height:32px; text-indent:-9999px; background:url(../images/content1/tab2_con2.jpg); margin-bottom:30px}
+.contlist2 .comment dl{width:655px; height:627px; text-indent:-9999px; background:url(../images/content1/history.jpg)}

@@ -1,0 +1,15 @@
+/* CSS Document */
+.leftNav li a.current{background:url(../common/images/sub2_menu02_over.jpg)}
+#contentArea h2{width:403px; height:63px; text-indent:-9999px; background:url(../images/content2/contentHD.jpg); margin:30px 0 40px 0}
+#contentArea>img{margin-bottom:30px}
+#contentArea h3{text-indent:-9999px; margin-bottom:30px}
+#contentArea h3.con1{width:118px; height:32px; background:url(../images/content2/content1.jpg)}
+#contentArea h3.con2{width:157px; height:30px; background:url(../images/content2/content2.jpg)}
+#contentArea h3.con3{width:232px; height:34px; background:url(../images/content2/content3.jpg)}
+#contentArea p{margin-bottom:60px}
+#contentArea p.short{margin-bottom:30px}
+table{border:1px solid #CCC; margin-bottom:25px; line-height:2em}
+table tr{border-bottom:1px solid #CCC}
+table th{width:650px; background:#CCC; color:#666}
+table td{width:650px; color:#333}
+#contentArea a img{margin-right:20px}

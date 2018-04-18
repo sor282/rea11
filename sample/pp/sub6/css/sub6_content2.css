@@ -1,0 +1,15 @@
+/* CSS Document */
+.leftNav li a.current{background:url(../common/images/sub6_menu02_over.jpg)}
+#contentArea h2{width:225px; height:63px; text-indent:-9999px; background:url(../images/content2/contentHD.jpg); margin:30px 0 40px 0}
+#contentArea h3{width:306px; height:33px; text-indent:-9999px; background:url(../images/content2/content1.jpg); margin-bottom:5px}
+#contentArea>p{margin:0 0 40px 20px}
+
+
+.faq{width:655px; position:relative; padding-top:150px; background:url(../images/content2/content_img.jpg) 50px 0 no-repeat; border-bottom:1px solid #ccc}
+.faq .all{position:absolute; top:118px; right:30px; width:81px; height:27px; text-indent:-999px; background:url(../images/content2/all.jpg) 0 0 no-repeat}
+.faq ul{margin:0;padding:0;list-style:none}
+.faq .q{height:45px;padding-left:70px;padding-top:20px;border-top:1px solid #ccc; background:url(../images/content2/icon_q.jpg) 10px 5px no-repeat}
+.faq .a{display:none;overflow:hidden;height:43px;padding-left:100px;padding-bottom:20px;padding-top:10px;background:url(../images/content2/icon_a.jpg) 40px 5px no-repeat;line-height:1.5em}
+.faq .q a.trigger{display:block;padding:0;color:#666;text-align:left;text-decoration:none}
+.faq .hide .q a.trigger{background:none;font-weight:normal}
+.faq .q a.trigger:hover{font-weight:bold;color:#333}

@@ -1,0 +1,4 @@
+.pro_list {margin:15px 0; overflow:auto}
+.pro_list li {display:inline; margin:0 15px 20px 0; width:80px;float:left; }
+.pro_list li span {display:block;text-align:center;font-size:10px; }
+

@@ -1,0 +1,32 @@
+/* CSS Document */
+.leftNav li a.current{background:url(../common/images/sub2_menu01_over.jpg)}
+#contentArea h2{width:403px; height:63px; text-indent:-9999px; background:url(../images/content1/contentHD.jpg); margin:30px 0 40px 0}
+#contentArea>img{margin-bottom:30px}
+#contentArea h3{text-indent:-9999px; margin-bottom:30px}
+#contentArea h3.con1{width:97px; height:33px; background:url(../images/content1/content1.jpg)}
+#contentArea h3.con2{width:95px; height:32px; background:url(../images/content1/content2.jpg)}
+#contentArea h3.con3{width:155px; height:32px; background:url(../images/content1/content3.jpg)}
+#contentArea .bold{font-weight:bold; font-size:1.5em; color:#333}
+#contentArea p{margin-bottom:60px}
+#contentArea p.short{margin-bottom:30px}
+#contentArea h4{font-weight:bold; font-size:1.5em; margin-bottom:10px; color:#333}
+#contentArea h5{font-weight:bold; font-size:1em; margin-bottom:5px; color:#333}
+
+table{width:650px; margin-bottom:30px; line-height:1.7em}
+table tr.title{background:#CCC}
+table tr{border-bottom:1px solid #CCC}
+table th{color:#666}
+table td{color:#333}
+table th.left{text-align:left; font-size:1em}
+table td.center{text-align:center}
+table th,td{border:1px solid #CCC}
+table th.col1{width:250px}
+table th.col2{width:200px}
+table th.col3{width:200px}
+table th.col4{width:325px}
+table th.col5{width:325px}
+
+
+
+
+

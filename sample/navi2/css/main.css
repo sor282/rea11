@@ -1,0 +1,24 @@
+body{background:#eee;font-family:Verdana, Helvetica, Arial, sans-serif;margin:0;padding:0}
+
+
+
+
+#menu {text-align:center;height:67px}
+#menu ul,#menu li{margin:0;padding:0; list-style:none; white-space:nowrap; display:inline-block;}
+
+#menu ul {background:#fff;margin-top:25px}
+#menu li {display:inline-block; display:inline;text-align:left}
+#menu ul .level1-li {float:left;display:block; position:relative;text-align:center }
+
+#menu ul ul.level2{position:absolute; left:-9999px;}
+
+
+
+#menu a {display:block;color:#555;padding:5px 20px 19px 20px;font-size:16px;font-weight:bold;letter-spacing:-1px}
+#menu a:hover{color:#4099d4}
+
+#menu ul li:hover > ul {width:150px;visibility:visible; left:12px; top:0px;z-index:999;border-left:4px solid #d6dfe8;border-bottom:4px solid #d6dfe8;border-right:4px solid #d6dfe8} /*하위박스*/
+#menu ul li:hover > ul li a{width:px;display:block; text-decoration: none; background: #fff;  color: #555;padding:4px 0 4px 15px;font-size:13px;letter-spacing:-1px;color:#333;font-weight:300} /*하위 li*/
+#menu ul li:hover > ul li a:hover {color:#4099d4; text-decoration:underline}
+#menu ul li:hover > ul li.last a{margin-bottom:10px}
+

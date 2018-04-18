@@ -1,0 +1,18 @@
+/* CSS Document */
+.container1{overflow:hidden;width:100%;margin:0 auto;border-left:1px solid #ccc;border-right:1px solid #ccc}
+.leftNav h3{overflow:hidden;width:188px;height:140px;border-bottom:1px solid #ccc;background:url(../images/sub3_leftTitle.jpg);text-indent:-9999px}
+.leftNav .menu{width:188px}
+.leftNav .menu ul{width:188px;margin:0;padding:0}
+.leftNav .menu li a{display:block;overflow:hidden;height:43px;border-bottom:1px solid #ccc;text-indent:-9999px}
+.leftNav .menu li.menu1 a{background:url(../images/sub3_menu01.jpg)}
+.leftNav .menu li.menu2 a{background:url(../images/sub3_menu02.jpg)}
+.leftNav .menu li.menu3 a{background:url(../images/sub3_menu03.jpg)}
+
+.leftNav .menu li.menu1 a:hover{background:url(../images/sub3_menu01_over.jpg)}
+.leftNav .menu li.menu2 a:hover{background:url(../images/sub3_menu02_over.jpg)}
+.leftNav .menu li.menu3 a:hover{background:url(../images/sub3_menu03_over.jpg)}
+
+
+.a1{width:352px; height:70px; text-indent:-999px; background:url(../images/img_kumho.png); overflow:hidden}
+.a2{width:352px; height:70px; text-indent:-999px; background:url(../images/img_munho.png); overflow:hidden}
+

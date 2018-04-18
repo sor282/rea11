@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title>대림미술관</title>
+<link rel="apple-touch-icon" href="app_icon.png" />
+<link rel="apple-touch-startup-image" href="startup.png"/>
+<link href="css/common.css" rel="stylesheet" type="text/css">
+<link href="css/sub_layout.css" rel="stylesheet" type="text/css">
+<link href="css/sub2_content1.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../common/js/jquery-1.8.3.min.js" language="javascript"></script>
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+</script>
+<script type="text/javascript"> 
+$(document).ready(function() {
+ $("#btn1").toggle(function() {
+  $("#content").css("display","block");  /*slidedown*/
+ }, function() {
+  $("#content").css("display","none");
+ });
+});
+</script>
+</head>
+
+<body>
+
+<!--header s  -->
+<header>
+<div id="wrap_head">
+  <h1 class="main_logo bold helv"><a href="index.html" id="logo">DAELIM MUSEUM</a></h1>
+  <a href="#" id="btn1"><span class="search_icon">검색</span></a>
+  <div id="content">
+    <form id="search" action="#" method="get">
+      <fieldset>
+        <legend>사이트 검색 입력</legend>
+        <div class="bg_search">
+          <div class="wrapBox">
+            <input type="text" name="input_search" class="type_text" title="검색어 입력" maxlength="255"  />
+          </div>
+          <input type="submit" id="Btn" class="type_btn" title="검색" />
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+<nav>
+  <ul class="main_menu bold verd">
+    <li><a href="sub1_1.html" title="ABOUT" class="tab_m">ABOUT</a></li>
+    <li><a href="sub2_1.html" title="GUIDE" class="tab_m">GUIDE</a></li>
+    <li><a href="sub3_1.html" title="EXHIBITION" class="tab_m">EXHIBITION</a></li>
+    <li><a href="sub4_1.html" title="notice">NOTICE</a></li>
+  </ul>
+</nav>
+</header>
+<!-- header e  -->
+<!-- article s -->
+<article>
+<div id="main">
+  <h2>관람안내</h2>
+  <img src="images/sub2_1.jpg" alt="대림 미술관 외관">
+  <h3>관람시간</h3>
+    <p>화요일 ~ 일요일 10:00am ~ 6:00pm</p>
+    <p class="interval">매주 월요일, 설 연휴, 추석 연휴 휴관입니다.</p>
+    <p class="last">&lt;라이언 맥긴리 – 청춘, 그 찬란한 기록&gt;전 청춘PASS가 있는 매주 토요일은 8:00PM까지 야간개관합니다.</p>
+  <img src="images/sub2_2.jpg" alt="대림 미술관 1층 안내데스크">    
+  <h3>관람요금</h3>
+    <table summary="성인,학생,어린이 별 관람요금/일반가와 할인가">
+      <caption class="hidden">관람 요금 안내</caption>
+      <tr class="title">
+        <th scope="col" class="col1">관람연령</th>
+        <th scope="col" class="col2">일반가</th>
+        <th scope="col" class="col3">할인가</th>
+      </tr>
+      <tr>
+        <th scope="row" class="left">성인 (만 19세 이상)</th>
+        <td class="center">5000</td>
+        <td class="center">3000</td>
+      </tr>
+      <tr>
+        <th scope="row" class="left">학생 (초, 중, 고)</th>
+        <td class="center">3000</td>
+        <td class="center">1500</td>
+      </tr>
+      <tr>
+        <th scope="row" class="left">어린이 (만 3세 ~ 7세)</th>
+        <td class="center">2000</td>
+        <td class="center">1000</td>
+      </tr>
+      </table>
+    <p class="last">할인적용 : 10인 이상 단체관람 / 65세 이상 경로자 / 장애인 특별 전시의 경우 관람료가 변경될 수 있습니다.</p>
+
+</div>
+</article>
+<!-- article e -->
+<!-- footer s  -->
+<footer>
+<div id="footer">
+  <ul>
+   <li><a href="#">MY HOME</a></li>
+   <li><a href="#">ICON VIEW</a></li>
+   <li class="end"><a href="#">TOTAL VIEW</a></li>
+  </ul>
+  <input type="button" value="로그인">
+  <input type="button" value="PC버전">
+  <input type="button" value="고객센터">
+  <p class="privacy">
+   <a href="#">개인정보취급방침</a>
+   <span class="bar">|</span>
+   <a href="#">이용약관</a>
+  </p>
+</div>
+<div class="end_bar">
+ <p class="copyrights helv">COPYRIGHT&copy; 2012 HTML5. ALL RIGHTS RESERVED.</p>
+ <a href="javascript:window.scrollTo(0,0);"><img src="images/btn_bot_top.png"></a>
+</div>
+</footer>
+<!-- footer e  -->
+
+</body>
+</html>

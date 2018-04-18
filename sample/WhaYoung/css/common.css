@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import "reset.css";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+
+/* skipNav */
+#skipNav{position:relative;width:100%;overflow:hidden;}
+#skipNav a{display:block;height:1px;margin-bottom:-1px;overflow:hidden;text-align:center;text-decoration:none;color:#333;font-size:11px;}
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{display:block;height:auto;padding:5px 0;background:none repeat scroll 0 0 #f2f2f2;}
+
+
+/* header */
+#headerW{width:100%;position:fixed;top:0;left:0;z-index:999;}
+#headerW #header_wrap h1#logoW{position:absolute;top:10px;left:15px;}
+#headerW #header_wrap ul#gnbW{position:absolute;top:13px;right:13px}
+#headerW #header_wrap ul#gnbW li{float:left; padding:0 10px;border-right:#999 1px solid;}
+#headerW #header_wrap ul#gnbW li.last{border:none}
+#headerW #header_wrap ul#gnbW li a{font-size:11px;line-height:11px;color:#747373}
+
+#headerW #header_wrap #lnbW{position:absolute;top:39px;right:13px}
+#headerW #header_wrap #lnbW .depth1>li{float:left;width:150px;height:14px;text-align:center;border-left:#999 1px solid}
+#headerW #header_wrap #lnbW .depth1>li a{font-size:14px;font-weight:700;line-height:14px;color:#323131}
+#headerW #header_wrap #lnbW .depth1 li.hoverW:hover{width:149px;background:#fff;border-top:#830e10 3px solid;border-left:#cecece 1px solid;border-right:#cecece 1px solid;border-bottom:#000000 3px solid;padding-top:30px;margin-top:-33px}
+#headerW #header_wrap #lnbW .depth1 li.hover1_2:hover{height:140px}
+#headerW #header_wrap #lnbW .depth1 li.hover1_3:hover{height:170px}
+
+#headerW #header_wrap #lnbW .depth1 li.hoverW:hover .depth2{display:block}
+#headerW #header_wrap #lnbW .depth2{width:150px;padding:10px 0;margin-top:15px;display:none;background:#eee}
+#headerW #header_wrap #lnbW .depth2 li{margin-left:30px}
+#headerW #header_wrap #lnbW .depth2 li a{font-size:12px;line-height:30px;color:#323131;font-weight:300}
+#headerW #header_wrap #lnbW .depth2 li:hover a{color:#830e10}
+#headerW #header_wrap #lnbW .depth2_3 li{margin-left:7px}
+#headerW #header_wrap #lnbW .depth2_3 li a{letter-spacing:-0.5px}
+
+#headerW #top_line{width:100%;height:6px;background:#830e10;position:absolute;top:0;left:0}
+
+
+
+/* footer */
+#footerW{width:100%}
+#footerW #foot_top{width:100%;height:205px;background:#4b4b4b;overflow:hidden}
+#footerW #foot_top .innerW{width:990px;margin:0 auto;color:#949393;line-height:17px}
+#footerW #foot_top .innerW .infoW{float:left;}
+#footerW #foot_top .innerW .quickW{float:right;width:214px}
+#footerW #foot_top .innerW h3{color:#000;font-size:14px;font-weight:900;margin:22px 0 8px}
+#footerW #foot_top .innerW .infoW dl{float:left;margin-right:60px}
+#footerW #foot_top .innerW .infoW dt,#foot_top .innerW .infoW dt a{color:#000;font-weight:700}
+#footerW #foot_top .innerW .infoW dl dd a,#foot_top .innerW .quickW ul li a{color:#949393}
+
+#footerW #foot_bottom{width:100%;height:109px;background:#383838;overflow:hidden}
+#footerW #foot_bottom .innerW{width:990px;margin:18px auto}
+#footerW #foot_bottom .innerW p{color:#949393;line-height:18px}

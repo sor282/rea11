@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title> new document </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" href="css/reset.css" type="text/css" />
+<link rel="stylesheet" href="css/main.css" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+
+</head>
+<body>
+
+
+<script type="text/javascript">
+<!--
+$(document).ready(function(){
+	/* 메인 비주얼*/
+	$('.visual_stop').click(function() { 
+		 $('div.m_visual_img').cycle('pause'); 
+	});
+	$('.visual_play').click(function() { 
+		 $('div.m_visual_img').cycle('resume'); 
+	});
+	$('div.m_visual_img').cycle({
+		fx:      'fade',
+		timeout:  4000,
+		pager:   '#nav',
+		width: 0,
+		next:   '.visual_next', 
+		prev:   '.visual_prev' ,
+		pagerAnchorBuilder: pagerFactory
+	});
+		function pagerFactory(idx, slide) {
+		var s = idx > 4 ? ' style="display:none"' : '';
+		return '<a'+s+'><span class="hidden">'+(idx+1)+'</span></a>';
+	};
+
+});
+//-->
+</script>
+
+<!-- 메인 : 비쥬얼 영역 : 시작 -->
+<div class="main_visual">
+	<div class="visual_btn">
+		<ul>
+			<li class="visual_stop"><a href="#a"><img src="images/visual_stop.gif" alt="비주얼 정지" /></a></li>
+			<li class="visual_play"><a href="#a"><img src="images/visual_play.gif" alt="비주얼 재생" /></a></li>
+			<li class="visual_prev"><a href="#a"><img src="images/visual_prev.gif" alt="다음 비주얼" /></a></li>
+			<li class="visual_next"><a href="#a"><img src="images/visual_next.gif" alt="이전 비주얼" /></a></li>
+		</ul>
+	</div>
+	<div class="m_visual_img">
+		<div class="visual_img visual_img1">
+			<p class="hide">
+				New beginning for life &amp; culture<br />
+				경험과 상식을 뛰어 넘어 새로움이 가득한 뉴라이프 스타일을 창조해 낼 대성의 새로운 시작 입니다.
+			</p>
+		</div>
+		<div class="visual_img visual_img2">
+			<p class="hide">
+				New approach for vision of the future<br />
+				건축물에 '문화'와 '자연' 그리고 '디자인'을 결합하는 새로운 시도를 통해 건축문화의 Vision을 제시하는데 앞장서고 있습니다.
+			</p>
+		</div>
+		<div class="visual_img visual_img3">
+			<p class="hide">
+				World class life &amp; culture<br />
+				이제 대성은 또 다른 새로움의 시작을 합니다. 익숙한 현재를 넘어 설레는 내일을 위한 도전 입니다. 사람의 행복을 위해, 더 나은 생활을 위해, 꿈꾸는 미래를 위해
+			</p>
+		</div>
+	</div>
+	<div class="nav" id="nav">
+	</div>
+</div>
+<!-- 메인 : 비쥬얼 영역 : 종료 -->
+
+
+
+</body>
+</html>

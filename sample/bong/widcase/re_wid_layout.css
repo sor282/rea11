@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+
+#header{	position:fixed;top:0;left:0;z-index:9999;width:100%;}
+#section1{border-top:1px solid #dfdfdf;border-bottom:1px solid #dfdfdf;background-color:#f4f4f4;height:30px}
+#section3{height:100px;background-color:#f40009;}
+#section4{background-color:#d60020;position:relative;height:30px;z-index:9999;}
+
+.wrap_center{margin:0 auto;max-width:1000px;width:100%;text-align:left;overflow:hidden;}
+
+/* 상단배너 */
+#top_banner_close{height:50px;background:#41c8e5;}
+#top_banner_close .wrap_center{position:relative;height:100%;}
+#top_banner_close .wrap_center input.btn_top_banner_close{position:absolute;top:10px;right:10px;width:32px;height:32px;border:0 none;
+	cursor:pointer;background:url(btn_banner_close01.png) no-repeat 0 0;}
+#top_banner_close input.btn_top_banner_open{position:absolute;top:38px;background:blue;width:40px;height:20px; }
+#top_banner_open{height:0;opacity:0;}
+#top_banner_open .wrap_center{text-align:right;}
+#top_banner_open input.btn_top_banner_open{position:absolute;top:10px;right:10px;width:32px;height:32px;border:0 none;
+	cursor:pointer;background:url(btn_banner_close01.png) no-repeat 0 0;display:none}
+
+
+#header_shadow{width:100%;height:210px}
+
+#content{max-width:1000px;width:100%; height:1000px; background:#f4f4f4; margin:0 auto}

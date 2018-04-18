@@ -1,0 +1,16 @@
+/* CSS Document */
+.leftNav li a.current{background:url(../common/images/sub5_menu02_over.jpg)}
+#contentArea h2{width:423px; height:63px; text-indent:-9999px; background:url(../images/content2/contentHD.jpg); margin:30px 0 40px 0}
+
+.col{width:370px; height:115px; padding:20px 15px 20px 270px; border-bottom:1px solid #CCC}
+.col1{background:url(../images/content2/img1.jpg) 15px 20px no-repeat; border-top:1px solid #CCC}
+.col2{background:url(../images/content2/img2.jpg) 15px 20px no-repeat}
+.col3{background:url(../images/content2/img3.jpg) 15px 20px no-repeat}
+.col4{background:url(../images/content2/img4.jpg) 15px 20px no-repeat}
+.col5{background:url(../images/content2/img5.jpg) 15px 20px no-repeat}
+.col6{background:url(../images/content2/img6.jpg) 15px 20px no-repeat}
+.col7{background:url(../images/content2/img7.jpg) 15px 20px no-repeat}
+.col8{background:url(../images/content2/img8.jpg) 15px 20px no-repeat}
+.col9{background:url(../images/content2/img9.jpg) 15px 20px no-repeat}
+
+.col h4{font-size:1.1em; font-weight:bold; color:#333; margin:20px 0}

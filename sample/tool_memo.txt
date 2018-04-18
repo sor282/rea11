@@ -1,0 +1,54 @@
+
+
+개발 도구
+1.Intellij : https://www.jetbrains.com/idea/
+2.Eclipse : http://www.eclipse.org/
+3.STS : http://www.springsource.org/downloads/sts-ggts
+
+버전 관리
+1.Subversion : http://subversion.tigris.org
+2.Git : http://git-scm.com/
+
+빌드 시스템
+1.Maven : http://maven.apache.org/maven2/index.html
+2.Gradle : http://www.gradle.org/
+
+CI 도구
+1.Jenkins : https://jenkins.io/
+2.CruiseControl : http://cruisecontrol.sourceforge.net
+3.CruiseControl .NET : http://sourceforge.net/projects/ccnet
+4.DamageControl : http://damagecontrol.codehaus.org
+5.AntHill : http://www.urbancode.com/projects/anthill
+6.Continuum : http://maven.apache.org/continuum
+7.LuntBuild : http://luntbuild.javaforge.com/
+8.Buildix : http://buildix.thoughtworks.com/
+
+이슈 추적 도구
+1.JIRA : http://www.atlassian.com/software/jira/default.jsp
+2.Bugzilla : http://www.bugzilla.org
+3.FogBugz : http://www.fogcreek.com/FogBugz
+4.PR-Tracker : http://www.prtracker.com
+5.Trac : http://trac.edgewall.org/
+
+테스트 프레임워크
+1.JUnit : http://www.junit.org
+2.NUnit : http://www.nunit.org
+
+커뮤니케이션 도구, 위키
+1.Confluence : http://www.atlassian.com/software/confluence/
+2.MoinMoin : http://moinmoin.wikiwikiweb.de/
+3.TWiki : http://twiki.org/
+4.SocialText : http://www.socialtext.com/
+5.Springnote : http://www.springnote.com/ko
+
+성능분석
+1.ANTS Load : http://www.red-gate.com/products/ants_load/index.htm
+2.JunitPerf : http://www.clarkware.com/software/JUnitPerf.html
+3.Jmeter : http://jakarta.apache.org/jmeter/
+
+기타
+1.Structure101 : http://www.headwaysoftware.com/index.php
+2.FreeMind : http://freemind.sourceforge.net/wiki/index.php/Main_Page
+3.Capistrano : http://manuals.rubyonrails.com/read/book/17
+
+  

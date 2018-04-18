@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import "reset.css";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+/* skipNav */
+#skipNav{position:relative;width:100%;overflow:hidden;}
+#skipNav a{display:block;height:1px;margin-bottom:-1px;overflow:hidden;text-align:center;text-decoration:none;color:#333;font-size:11px;}
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{display:block;height:auto;padding:5px 0;background:none repeat scroll 0 0 #f2f2f2;}
+
+/* header */
+#WYheader{width:100%;position:fixed;top:0;left:0;z-index:9999;}
+#WYheader #top_line{Background:#830e10;height:6px}
+#WYheader #header_wrap{width:100%;height:62px;}
+#WYheader #header_wrap #WYmenu{width:990px;height:62px;margin:0 auto;background:#fff;position:relative}
+#WYheader #header_wrap h1#WYlogo{position:absolute;top:4px;left:15px;}
+#WYheader #header_wrap ul#top_menu{position:absolute;top:7px;right:13px}
+#WYheader #header_wrap ul#top_menu li{float:left; padding:0 10px;border-right:#999 1px solid;font-size:11px;line-height:11px;color:#747373}
+#WYheader #header_wrap ul#top_menu li.last{border:none}
+#WYheader #header_wrap #WYgnb{position:absolute;top:33px;right:13px}
+#WYheader #header_wrap #WYgnb ul li{float:left; padding:0 37px;border-left:#999 1px solid;font-size:14px;font-weight:700;line-height:14px;color:#747373}
+
+
+/* content */
+#content{min-height:1500px}
+
+
+/* footer */
+#footer{width:100%;background:#CCC;overflow:hidden}
+.footerInner{width:1000px;height:103px;margin:15px auto;overflow:hidden;background:#fff}
+
+

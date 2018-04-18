@@ -1,0 +1,14 @@
+/* CSS Document */
+.leftNav li a.current{background:url(../common/images/sub4_menu02_over.jpg)}
+#contentArea h2{width:410px; height:63px; text-indent:-9999px; background:url(../images/content2/contentHD.jpg); margin:30px 0 40px 0}
+#contentArea img{margin-bottom:20px}
+#contentArea>p{margin-bottom:40px}
+
+.tabs {position:relative; width:655px; padding-top:25px} 
+.tabs a.tab {display:block; float:left; width:100px; height:26px; text-indent:-999px; overflow:hidden; position:absolute} 
+.tabs a.tab1{background:url(../images/content2/tab1.jpg);left:10px; top:0}
+.tabs a.tab2{background:url(../images/content2/tab2.jpg);left:120px; top:0}
+.tabs a.tab3{background:url(../images/content2/tab3.jpg);left:230px; top:0}
+.tabs a.tab4{background:url(../images/content2/tab4.jpg);left:340px; top:0}
+.tabs .contlist {display:none; line-height:1.5em; border-top:1px solid #999; padding:30px 10px} 
+.contlist h4{font-weight:bold; font-size:1.2em; margin-bottom:20px; color:#333}

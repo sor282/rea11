@@ -1,0 +1,8 @@
+/* CSS Document */
+.leftNav li a.current{background:url(../common/images/sub1_menu03_over.jpg)}
+#contentArea h2{width:424px; height:63px; text-indent:-9999px; background:url(../images/content3/contentHD.jpg); margin:30px 0 40px 0}
+
+.map{width:640px; border:1px solid #ccc; margin:0px auto}
+table{width:640px; margin:50px auto}
+table th{width:110px; text-align:left; color:#333; border-bottom:1px solid #CCC; border-right:1px solid #CCC; border-top:1px solid #CCC}
+table td{width:530px; border-bottom:1px solid #CCC; border-top:1px solid #CCC}

@@ -1,0 +1,24 @@
+/* CSS Document */
+.leftNav li a.current{background:url(../common/images/sub6_menu01_over.jpg)}
+#contentArea h2{width:304px; height:63px; text-indent:-9999px; background:url(../images/content1/contentHD.jpg); margin:30px 0 35px 0}
+
+#content table{border-collapse:collapse}
+#content .notice{overflow:hidden;clear:both;position:relative;width:655px;color:#666}
+#content table{width:655px;font-family:Verdana,Geneva,sans-serif;font-size:12px;line-height:2em;color:#666}
+#content table thead tr{border-bottom:1px solid #999;background:#dedede;color:#333}
+#content table tr.first{border-bottom:1px solid #999}
+#content table tr,table th,table td{text-align:center;vertical-align:inherit}
+#content table tr{border-bottom:1px dotted #ccc; display:table-row}
+#content table th,table td{padding:5px 1px;display:table-cell}
+#content table .td_left{padding-left:12px;text-align:left}
+#content table a:hover{color:#999}
+
+#content table tr.no_line{border-bottom:0}
+#content table .form_tr{height:30px}
+#content .btn1,.btn2,.search,.text,.btn3{display:block; float:left; overflow:hidden}
+#content .btn1{width:60px; height:19px; background:url(../images/content1/btn_viewlist.jpg); text-indent:-9999px;margin-right:10px}
+#content .btn2{width:60px; height:19px; background:url(../images/content1/btn_write.jpg); text-indent:-9999px}
+#content .search{width:65px; margin:0; border:1px solid #999}
+#content .text{width:120px; margin-right:10px}
+#content .btn3{width:52px; height:18px; background:url(../images/content1/btn_serch.jpg); text-indent:-9999px}
+

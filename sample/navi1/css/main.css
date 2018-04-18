@@ -1,0 +1,32 @@
+/* CSS Document */
+
+.container{width:100%; background:url(../images/main/conBg.jpg) repeat-x 0 0}
+#content{padding-top:27px}
+.conBox1{width:963px; height:573px; overflow:hidden}
+.conBox1 .box1{float:left; width:569px; height:573px; border-left:#FFF 3px solid}
+.conBox1 .box2{float:left; width:191px; height:573px; border-left:#FFF 3px solid}
+.conBox1 .box3{float:left; width:191px; height:573px; border-left:#FFF 3px solid; border-right:#FFF 3px solid}
+.conBox1 .con1,.con2,.con3,.con4,.con5,.con6{width:191px; height:189px; overflow:hidden}
+.conBox1 .con1,.con2,.con4,.con5{border-bottom:#FFF 3px solid}
+
+.conBox2{width:963px; height:144px; margin-top:30px; border-top:#ccc 1px solid}
+.conBox2 .news{float:left; width:220px; height:90px; margin:33px 0 21px 0; position:relative}
+.conBox2 h4,.conBox3 h4{font-weight:900; font-size:1.1em}
+.conBox2 .news ul{margin-top:15px}
+.conBox2 .news ul li{margin-bottom:7px; background:url(../images/main/bullet.png) no-repeat 0 1px; padding-left:10px}
+.conBox2 .news ul li a{color:#888}
+.conBox2 .news .more{position:absolute; top:0; right:0}
+.conBox2 .quick{float:left; width:296px; height:90px; margin:33px 0 21px 42px}
+.conBox2 .quick ul li{float:left; margin-right:15px}
+.conBox2 .solution{float:left; width:336px; height:90px; margin:33px 0 21px 48px}
+
+.conBox3{width:963px; height:142px; border-top:#ccc 1px solid}
+.conBox3 .business{width:321px; height:142px; float:left; background:url(../images/main/businessBg.jpg) no-repeat 0 0}
+.conBox3 .webzine{width:321px; height:142px; float:left; background:url(../images/main/webzineBg.jpg) no-repeat 0 0}
+.conBox3 .public{width:321px; height:142px; float:left; background:url(../images/main/publicBg.jpg) no-repeat 0 0}
+.conBox3 h4{margin:35px 0 0 0}
+.conBox3 h4 a{color:#F00;}
+.conBox3 p{margin:10px 0 0 0}
+.conBox3 p a{color:#888}
+
+

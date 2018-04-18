@@ -1,0 +1,17 @@
+/* CSS Document */
+
+.leftContent{float:left; width:164px}
+.leftNav{width:164px;}
+.leftNav ul{margin-bottom:30px}
+.leftNav li{width:164px; border-bottom:#ededee 1px solid}
+.leftNav li a{display:block; width:154px; height:15px; margin:8px 0 7px 7px; font-size:1.1em; font-weight:bold; color:#888}
+.leftNav li .current{color:#1fb7eb}
+.banner a{display:block; margin-top:15px}
+
+.contentArea{float:left; width:768px; margin-left:31px}
+.contentTop{border-bottom:#ededee 1px solid}
+.contentTop .lineMap {margin-top:57px; color:#888}
+.contentTop .lineMap a{color:#888}
+
+#footer{margin-top:70px}
+

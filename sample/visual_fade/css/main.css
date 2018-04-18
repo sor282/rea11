@@ -1,0 +1,40 @@
+
+.hidden { position:absolute; left:-100000px; top:-100000px; font-size:0; width:0; height:0; line-height:0px; overflow:hidden; visibility:hidden; }
+
+/* Main Visual */
+.main_visual { position:relative; display:block; width:1400px; margin:0 auto; height:514px; text-align:center; background:#fff; }
+.main_visual .m_visual_img { width:1400px; height:514px; }
+
+.main_visual .m_visual_img .visual_img { width:1400px; height:514px; }
+.main_visual .m_visual_img .visual_img .hide { font-size:0; height:0; line-height:0; }
+.main_visual .m_visual_img .visual_img1 { background:url('../images/main_visual1.jpg') no-repeat center top; }
+.main_visual .m_visual_img .visual_img2 { background:url('../images/main_visual2.jpg') no-repeat center top; }
+.main_visual .m_visual_img .visual_img3 { background:url('../images/main_visual3.jpg') no-repeat center top; }
+
+.main_visual div.v_area { position:relative; display:block; width:100%; height:100%; }
+.main_visual div.v_area ul { display:block; width:100%; height:100%; margin:0; padding:0; overflow:hidden; }
+.main_visual div.v_area ul li { margin:0; padding:0; }
+.main_visual div.v_area ul li img { }
+
+.main_visual div.slogan { position:absolute; display:block; right:0; bottom:0; width:429px; height:305px; overflow:hidden; background:url('/asset/common/images/slogan_bg.png') no-repeat left top; z-index:1000; }
+.main_visual div.slogan ul.pagination { position:absolute; display:inline-block; left:50%; top:50px; margin-left:-34px; }
+.main_visual div.slogan ul.pagination:after { display:block; content:""; clear:both; }
+.main_visual div.slogan ul.pagination li { display:block; float:left; width:10px; height:10px; margin-right:6px; overflow:hidden; cursor:pointer; }
+.main_visual div.slogan ul.pagination li span { display:block; width:10px; height:11px; overflow:hidden;}
+.main_visual div.slogan ul.pagination li.current span img { margin-top:-12px; *margin-top:-15px; }
+
+.main_visual div.block { position:absolute; display:none; width:1000px; height:100%; left:50%; top:0; margin-left:-500px; border:1px solid red; }
+.main_visual div.block span.btn_l { position:absolute; display:inline-block; left:300px; top:400px; width:35px; height:35px; overflow:hidden; cursor:pointer; }
+.main_visual div.block span.btn_l:hover img { margin-top:-35px; }
+.main_visual div.block span.btn_r { position:absolute; display:inline-block; left:344px; top:400px; width:35px; height:35px; overflow:hidden; cursor:pointer; }
+.main_visual div.block span.btn_r:hover img { margin-top:-35px; }
+
+div.visual_btn { position:absolute; top:480px; left:220px; z-index:100; }
+div.visual_btn ul { overflow:hidden; }
+div.visual_btn ul:after { display:block; content:""; clear:both; }
+div.visual_btn ul li { float:left; }
+
+div.nav { position:absolute; overflow:hidden; top:480px; left:125px; z-index:100; }
+div.nav:after { display:block; content:""; clear:both; }
+div.nav a { display:inline-block; float:left; margin-right:10px; width:14px; height:15px; background:#fff; cursor:pointer;  }
+div.nav a.activeSlide { width:14px; background:#800000; }
